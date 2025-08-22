@@ -15,17 +15,17 @@
 
 **Wellness Scribe Backend** is an AI-powered wellness documentation and coaching platform built with NestJS. It provides intelligent health tracking, personalized wellness coaching, and AI-enhanced documentation management for healthcare professionals and individuals.
 
-## 🚀 Features
+## Features
 
 ### Core Modules
 
-- **🤖 AI Services** - Integration with Mistral AI for intelligent responses and document analysis
-- **💬 Chat System** - AI-powered conversational interface with context awareness
-- **📚 RAG System** - Retrieval-Augmented Generation for personalized, evidence-based responses
-- **🏥 Wellness Documents** - Comprehensive health document management and storage
-- **🎯 Wellness Coaching** - SMART goal setting, progress tracking, and AI-powered coaching
-- **🔐 Authentication** - JWT-based secure authentication and authorization
-- **📊 Progress Analytics** - Real-time dashboards and comprehensive reporting
+- **AI Services** - Integration with Mistral AI for intelligent responses and document analysis
+- **Chat System** - AI-powered conversational interface with context awareness
+- **RAG System** - Retrieval-Augmented Generation for personalized, evidence-based responses
+- **Wellness Documents** - Comprehensive health document management and storage
+- **Wellness Coaching** - SMART goal setting, progress tracking, and AI-powered coaching
+- **Authentication** - JWT-based secure authentication and authorization
+- **Progress Analytics** - Real-time dashboards and comprehensive reporting
 
 ### Key Capabilities
 
@@ -36,7 +36,7 @@
 - **Context-Aware Responses** - AI that remembers user history and preferences
 - **Real-time Updates** - Live progress tracking and milestone celebrations
 
-## 🏗️ Architecture
+## Architecture
 
 The application follows a modular NestJS architecture with the following key components:
 
@@ -51,7 +51,7 @@ src/
 └── config/             # Configuration and environment management
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework**: NestJS 11.x (Node.js)
 - **Language**: TypeScript 5.x
@@ -63,14 +63,14 @@ src/
 - **Documentation**: Swagger/OpenAPI
 - **Testing**: Jest with supertest
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ 
 - MongoDB 6+
 - Redis 6+
 - Mistral AI API key
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -138,7 +138,7 @@ The application will be available at:
 - **API**: http://localhost:3001
 - **Swagger Documentation**: http://localhost:3001/api
 
-## 📚 API Documentation
+## API Documentation
 
 ### Authentication Endpoints
 
@@ -172,7 +172,7 @@ The application will be available at:
 - `POST /chat/messages` - Send message
 - `GET /chat/conversations/:id` - Get conversation history
 
-## 🔧 Development
+## Development
 
 ### Available Scripts
 
@@ -207,7 +207,7 @@ The project follows NestJS best practices with:
 - **Interceptors** - Request/response transformation
 - **Pipes** - Data validation and transformation
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Unit tests
@@ -223,14 +223,14 @@ npm run test:cov
 npm run test:watch
 ```
 
-## 📊 Monitoring & Performance
+## Monitoring & Performance
 
 - **Rate Limiting** - Built-in throttling to prevent abuse
 - **Caching** - Redis-based caching for improved performance
 - **Logging** - Comprehensive application logging
 - **Health Checks** - Built-in health monitoring endpoints
 
-## 🔒 Security Features
+## Security Features
 
 - **JWT Authentication** - Secure token-based authentication
 - **Password Hashing** - bcrypt-based password security
@@ -238,7 +238,7 @@ npm run test:watch
 - **Input Validation** - Comprehensive request validation
 - **Rate Limiting** - Protection against brute force attacks
 
-## 🚀 Deployment
+## Deployment
 
 ### Docker Deployment
 
@@ -260,12 +260,12 @@ Ensure all required environment variables are set in your production environment
 - `JWT_SECRET` - Strong, unique JWT secret
 - `MISTRAL_API_KEY` - Valid Mistral AI API key
 
-## 📖 Additional Documentation
+## Additional Documentation
 
 - [RAG System Documentation](./RAG_README.md) - Detailed RAG system guide
 - [Wellness Coaching Features](./WELLNESS_COACHING_README.md) - Coaching system documentation
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -273,17 +273,16 @@ Ensure all required environment variables are set in your production environment
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 - **Documentation**: [Swagger API Docs](http://localhost:3001/api)
 - **Issues**: Create an issue in the repository
-- **Discord**: Join our [Discord community](https://discord.gg/G7Qnnhy)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [NestJS](https://nestjs.com/) - A progressive Node.js framework
 - AI powered by [Mistral AI](https://mistral.ai/)
