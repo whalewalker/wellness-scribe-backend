@@ -19,7 +19,10 @@ export default () => ({
     apiKey: process.env.MISTRAL_API_KEY,
   },
   cors: {
-    origin: process.env.CORS_ORIGIN || ['http://localhost:8080'],
+    origin: [
+      'http://localhost:3000',
+      'https://wellness-scribe-frontend.vercel.app/',
+    ],
   },
   rateLimit: {
     ttl: parseInt(process.env.RATE_LIMIT_TTL || '60', 10) || 60,
