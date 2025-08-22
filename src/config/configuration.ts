@@ -22,8 +22,9 @@ export default () => ({
     origin: [
       'http://localhost:3000',
       'https://wellness-scribe-frontend.vercel.app/',
+      'wellness-scribe.vercel.app',
       'https://wellness-scribe-frontend-8zqojwq00-whalewalkers-projects.vercel.app/',
-      'https://wellness-scribe-frontend-git-main-whalewalkers-projects.vercel.app/'
+      'https://wellness-scribe-frontend-git-main-whalewalkers-projects.vercel.app/',
     ],
   },
   rateLimit: {
